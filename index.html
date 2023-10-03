@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LLTS">
+    <meta name="keywords" content="Criação de websites, design e layouts">
+    <link rel="stylesheet" href="landing-page.css">
+    <link rel="stylesheet" href="contato.css">
+    <script src="script.js" defer></script>
+    <title>LLTS</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="./imagens/logo.png" alt="Logo da empresa LM"></a>
+        <nav id="navigation">
+            <a href="#">INICIO</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#serviços">SERVIÇOS</a>
+            <a href="contato.html">CONTATO</a>
+            <button onclick="redireciona()">Saiba Mais</button>
+        </nav>
+        <img id="menu-hamburger" class="hamburger" src="./imagens/hamburger.svg" alt="">
+    </header>
+    <main id="main">
+        <div class="main-content">
+            <h1>LLTS</h1>
+            <p>Nós somos especialistas em transformar conceitos em realidade
+                digital. Como uma equipe de especialistas em Web Design e Desenvolvimento, nos
+                dedicamos a criar experiências online memoráveis e cativantes para ajudar sua
+                empresa a se destacar na era digital.</p>
+            <button onclick="redireciona()">Saiba Mais</button>
+            <div class="main-content-icons">
+                <p>Entre em contato:</p>
+                <a target="_blank"
+                    href="https://api.whatsapp.com/send/?phone=5561985503644&text&type=phone_number&app_absent=0"><img
+                        src="./imagens/whatsapp.png" alt="Icone do whatsapp"></a>
+                <a target="_blank" href="https://instagram.com"><img src="./imagens/instagram.png"
+                        alt="Icone do instragram"></a>
+            </div>
+        </div>
+        <div class="main-img">
+            <img src="./imagens/main-photo.svg" alt="Imagem principal com uma ilustração sobre webdesign">
+        </div>
+    </main>
+    <section id="sobre">
+        <img src="./imagens/Logo.png" alt="Logo da empresa">
+        <h1>Sobre</h1>
+        <p>Na L M Technology, acreditamos que o design é mais do que apenas criar algo
+            visualmente atraente. É sobre transmitir mensagens, contar histórias e criar
+            experiências memoráveis. Somos uma equipe apaixonada por Web Design e Criação
+            de Sites, comprometida em ajudar empresas a alcançar seu potencial máximo no
+            mundo digital.
+        </p>
+        <button onclick="redireciona()">Saiba Mais</button>
+    </section>
+    <section id="serviços">
+        <h1>Serviços</h1>
+        <p class="serviços-p">Esses são alguns dos serviços que oferecemos</p>
+        <div class="serviços-container">
+            <div class="serviços-content">
+                <span>1</span>
+                <h3>Criação de Websites</h3>
+                <p>Nossa abordagem para a criação de websites é baseada na compreensão das
+                    necessidades e objetivos de cada cliente. Trabalhamos em estreita colaboração
+                    para entender sua marca, público-alvo e metas comerciais.
+                </p>
+            </div>
+            <div class="serviços-img">
+                <img src="./imagens/website.svg" alt="">
+            </div>
+        </div>
+        <div class="serviços-container">
+            <div class="serviços-content">
+                <span>2</span>
+                <h3>Criação de Layouts</h3>
+                <p>Na L M Technology, oferecemos serviços especializados em criação de layouts
+                    personalizados que proporcionam uma experiência visualmente envolvente e única
+                    para seus projetos digitais. </p>
+            </div>
+            <div class="serviços-img">
+                <img src="./imagens/layout.svg" alt="">
+            </div>
+        </div>
+        <div class="serviços-container">
+            <div class="serviços-content">
+                <span>3</span>
+                <h3>Criação de Logos</h3>
+                <p>Oferecemos serviços de criação de logos personalizados que capturam a identidade
+                    única da sua marca. Sabemos que um logo é uma peça fundamental na construção
+                    da imagem da sua empresa, e nos dedicamos a criar designs exclusivos que se
+                    destacam e deixam uma impressão duradoura.</p>
+            </div>
+            <div class="serviços-img">
+                <img src="./imagens/design-logo.svg" alt="">
+            </div>
+        </div>
+        <div class="serviços-container">
+            <div class="serviços-content">
+                <span>4</span>
+                <h3>Criação de Artes Digitais</h3>
+                <p>Oferecemos serviços especializados na criação de artes digitais que agregam valor
+                    e impacto visual à sua marca. Sabemos que uma imagem vale mais que mil
+                    palavras, e nos empenhamos em criar artes digitais de alta qualidade que
+                    transmitem sua mensagem de forma atrativa e memorável.
+                </p>
+            </div>
+            <div class="serviços-img">
+                <img src="./imagens/design-redes.svg" alt="">
+            </div>
+        </div>
+        <button onclick="redireciona()">Saiba Mais</button>
+    </section>
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="main-title-contact">Tem algum projeto em mente?<span class="span-contact"> Entre em
+                        contato!</span></p>
+                <div class="info-content">
+                    <p class="title-contact">Projetos Para</p>
+                    <p class="subTitle-contact">Web e Mobile</p>
+                </div>
+                <div class="info-content">
+                    <p class="title-contact">Telefone</p>
+                    <p class="subTitle-contact">(61) 98550-3644</p>
+                </div>
+                <div class="info-content">
+                    <p class="title-contact">Email</p>
+                    <p class="subTitle-contact">llts.tec@outlook.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form class="form">
+                    <input name="nome" type="text" placeholder="Digite o seu nome">
+                    <input name="email" type="text" placeholder="Digite o seu email">
+                    <textarea name="mensage" id="" cols="50" rows="4" placeholder="Digite sua mensagem"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div></div>
+        <p>Desenvolvido por <a target="_blank" href="https://www.instagram.com/luscasmath/">LLTS</a></span> - 2023</p>
+        <a href="#"><img src="./imagens/arrow-up-svgrepo-com.svg" alt=""></a>
+    </footer>
+
+    <script>
+        const redireciona = () => {
+            window.open("https://api.whatsapp.com/send/?phone=5561985503644&text&type=phone_number&app_absent=0")
+        }
+    </script>
+</body>
+
+</html>
